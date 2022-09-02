@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bash 'sudo python --version'
+                bash 'python --version'
             }
         }
     }
